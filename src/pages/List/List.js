@@ -7,8 +7,6 @@ import {MainContext} from '../../context/main/mainContext'
 export const List = () => {
     const {sortBy} = useContext(MainContext)
 
-    console.log('ListRender')
-
     return (
         <div className="list__wrapper">
             <h1 className="list__title">Фильмы</h1>

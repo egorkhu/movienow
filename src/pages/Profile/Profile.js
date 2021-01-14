@@ -15,8 +15,6 @@ export const Profile = ({ match }) => {
         // eslint-disable-next-line
     }, [])
 
-    console.log(movie)
-
     return (
         <div className="profile__wrapper">
             <div className="link__wrapper">

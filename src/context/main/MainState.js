@@ -20,8 +20,6 @@ export const MainState = ({ children }) => {
 
         const response = await axios.get('https://floating-sierra-20135.herokuapp.com/api/movies')
 
-        console.log(response.data)
-
         dispatch({
             type: GET_MOVIES,
             payload: response.data
