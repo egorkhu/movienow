@@ -1,0 +1,6 @@
+export const GET_MOVIES = 'GET_MOVIES'
+export const SET_LOADING = 'SET_LOADING'
+export const GET_MOVIE = 'GET_MOVIE'
+export const SET_MOVIE = 'SET_MOVIE'
+export const CLEAR_MOVIES = 'CLEAR_MOVIES'
+export const SORT_BY = 'SORT_BY'

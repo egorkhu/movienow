@@ -1,0 +1,54 @@
+.profile__wrapper {
+    padding: 42px 0 0 0;
+}
+
+.profile__wrapper .card:hover {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0;
+    transition: none;
+    cursor: default
+}
+
+.link__wrapper {
+    margin-bottom: 22px;
+}
+
+.link__back {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: rgba(255, 82, 82, 0.98);
+    cursor:pointer;
+    transition: opacity .5s;
+}
+
+.link__back:hover {
+    opacity: .6;
+    transition: opacity .5s;
+}
+
+.link__arrow {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-top: 2px solid rgba(255, 82, 82, 0.98);
+    border-right: 2px solid rgba(255, 82, 82, 0.98);
+    margin: 3px 16px 0 2px;
+    transform: rotate(-135deg);
+}
+
+.card__wrapper {
+    padding: 38px 0 0 0;
+}
+
+.profile__wrapper .loader__wrapper {
+    height: 185px;
+}
+
+.not-found {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    color: #FFFFFF;
+}

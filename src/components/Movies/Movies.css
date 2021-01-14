@@ -1,0 +1,14 @@
+.movies__content {
+    padding: 40px 0;
+}
+
+.movie__link {
+    text-decoration: none;
+}
+
+.movies__content .card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+    margin: -8px 0 32px;
+    transition: all .5s;
+    cursor: pointer;
+}
